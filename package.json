@@ -44,5 +44,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:9001/api/"
+  "proxy": "http://13.233.93.5:9001/api/"
 }
