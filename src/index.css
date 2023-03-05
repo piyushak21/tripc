@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.map-container {
+  width: 100%;
+  height: 50vh;
+  border-radius: 0.5rem;
+}
+
+.text-decnone {
+  text-decoration: none !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.liveIcon {
+  width: 10px;
+  height: 10px;
+  scale: 1;
+}
