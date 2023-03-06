@@ -1,6 +1,6 @@
 import axios from "axios";
 import React, { useState, useEffect } from "react";
-import { Container, Table, Badge, Row } from "react-bootstrap";
+import { Container, Table, Badge } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { AiFillEdit, AiFillEye } from "react-icons/ai";
 
@@ -8,7 +8,7 @@ const Vehicles = () => {
   const [vehicles, setVehicles] = useState([]);
   useEffect(() => {
     axios
-      .get("http://13.233.93.5:9001/vehicles/getAllVehicles")
+      .get("/vehicles/getAllVehicles")
       .then((res) => {
         setVehicles(res.data);
       })
