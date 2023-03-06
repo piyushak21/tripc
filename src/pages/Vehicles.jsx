@@ -8,7 +8,7 @@ const Vehicles = () => {
   const [vehicles, setVehicles] = useState([]);
   useEffect(() => {
     axios
-      .get("/vehicles/getAllVehicles")
+      .get("http://13.233.93.5:9001/vehicles/getAllVehicles")
       .then((res) => {
         setVehicles(res.data);
       })
